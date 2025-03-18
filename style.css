@@ -28,4 +28,10 @@ body {
     border-radius: 5px; 
 }
 
+.important {
+    color: #d8b8b0; 
+    background-color: white; 
+    border-style: solid; 
+    border-radius: 4px; 
+}
 
