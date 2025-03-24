@@ -8,24 +8,56 @@ html {
     width: 100%;
 }
 
+.headingOne {
+    color: #b63b3b; 
+
+}
 body {
     font-family: MyFont; 
-     color: #b5a17f;  
+     color: #b63b3b;  
      background-image: url('Winnie.jpg');
+ }
+
+ .color {
+   color: #b63b3b; 
  }
 
  h2 {
     color: #d8b8b0; 
  }
+ 
+ /* color of link */
+ a{
+      color: #d8b8b0; 
+ }
+
+ /* color of link changes when hovering over it */
+ a:hover {
+    color: #b63b3b; 
+    text-decoration: none; 
+
+}
+/* centers links and video on last section */
+.container {
+    text-align: center; 
+
+}
+ .titleColor {
+    color: #b63b3b;
+ }
+
+ /* customization to top right button */
 
  .top-right-button {
     position: absolute; 
     top: 10px; 
     right: 10px 
-    background-color: 181, 161, 127; 
+    background: #b63b3b; 
+    color: #b63b3b; 
     padding: 10px;
     text: 16px; 
-    border-radius: 5px; 
+    border-radius: 5px;
+    border-color: #b63b3b;  
 }
 
 .important {
@@ -34,11 +66,12 @@ body {
     border-style: solid; 
     border-radius: 4px; 
 }
-
+/* aliogns buttons to center */
  .buttons {
     text-align: center;
 }
 
+/* selection of images button */
 .image-button { 
     display: inline-block; 
     background-color: #d8b8b0;
@@ -55,7 +88,8 @@ body {
 /* seperately shows pictures */
 content {
     display: none; 
-    margin-top: 20px; 
+    color:  rgb(182, 59, 59); 
+    margin-top: 40px; 
 }
 
 .content:target {
